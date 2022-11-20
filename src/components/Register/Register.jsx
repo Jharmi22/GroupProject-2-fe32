@@ -17,7 +17,7 @@ export default class Register extends Component {
     e.preventDefault();
     const { username, email, password } = this.state;
     console.log(username, email, password);
-    fetch("https://63517f85dfe45bbd55c1db19.mockapi.io/register", {
+    fetch("https://631993998e51a64d2be72871.mockapi.io/register", {
       method: "POST",
       crossDomain: true,
       headers: {
@@ -42,6 +42,7 @@ export default class Register extends Component {
         <div className="register-form">
           <form onSubmit={this.handleSubmit}>
             <span className="span">
+              <img src={logo} alt="logo" />
               <h3>Register Page</h3>
             </span>
             <div className="register-form-div">
