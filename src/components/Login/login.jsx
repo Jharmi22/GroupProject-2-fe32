@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
 import "./LoginStyle.css"
 
 export default class Login extends Component {
